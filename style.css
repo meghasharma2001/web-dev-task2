@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #000;
+
+} 
+
+/* .header-image {
+/* Add styles for header image */
+
+
+.main-content {
+font-family: cursive;
+margin-left:7vw;
+}
+
+
+.cta-button {
+display: inline-block;
+background-color:darkolivegreen;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.cta-button:hover {
+background-color: #333;
+}
+
+footer {
+background-color: #000;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+.contact-info {
+margin-top: 20px;
+}
+img{
+  width : 99vw;
+  /* height :100vh; */
+}
+.head{
+
+  display: flex ;
+  justify-content :flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin: 5px 5px 5px 5px; 
+
+ height:10vh;
+  margin-top: 0px;
+
+}
+li{
+list-style: none;
+
+}
+.links{
+color:white;
+text-decoration:none;
+margin: 5px 50px 5px 30px;
+}
+nav ul li a:hover{
+  font-weight:bolder;
+  /* box-shadow:12px 12px 13px 13px rgba(green) ; */
+  color:darkseagreen;
+}
+.Welcome{
+display:flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 5vh;
+/* background-color: aqua; */
+
+/* background-repeat: no-repeat; */
+ /* background-size:100vw ; */
+ flex-direction: column;
+ margin-left:5vw;
+ 
+ 
+}
+.container{
+display :flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: row;
+/* background-image: url("./car.webp");
+background-size:100vw 100vh; */
+/* height:100vh;
+width:100vw; */
+/* margin-top:0px; */
+}
+.spec{
+    margin-left:2vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+hr{
+    margin:3vh 0vh; 
+    width:21vw;  
+}
+body{
+    font-family: cursive;
+}
+.price{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
